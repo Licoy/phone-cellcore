@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">手机号码归属地</string>
+    <string name="main_input_phone">请输入你的手机号码</string>
+    <string name="send_button">查询</string>
+</resources>
