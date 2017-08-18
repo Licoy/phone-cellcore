@@ -1,5 +1,7 @@
 package cn.licoy.phonequery.mvp.impl;
 
+import android.widget.Toast;
+
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -32,6 +34,7 @@ public class MainPresenter extends BasePresenter {
     }
 
     private void sendHttpRequest(String phone){
+
         Map<String,String> param = new HashMap<>();
         HttpUnit httpUnit = new HttpUnit(new HttpUnit.HttpResponse() {
             @Override
@@ -62,4 +65,5 @@ public class MainPresenter extends BasePresenter {
     public String getResponse() {
         return response;
     }
+
 }
