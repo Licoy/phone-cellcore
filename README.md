@@ -6,6 +6,6 @@
 - okhttp
 - Gson
 # 展示图
-![](https://github.com/Licoy/phone-query/blob/master/app/src/main/res/mipmap-hdpi/show.jpg?raw=true)
+![](https://github.com/Licoy/phone-query/blob/master/app/src/main/res/mipmap-hdpi/show.jpg?raw=true =100x100)
 # 体验
 [Demo](https://fir.im/1fnp)
