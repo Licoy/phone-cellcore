@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.licoy.phonequery.AboutActivity">
+
+
+
+    <!-- view for AdMob Interstitial Ad -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="11dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/author"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/author_licoy"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blog_https_www_licoy_cn"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/app_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:id="@+id/go_github"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/github"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_below="@+id/level"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp" />
+
+    <Button
+        android:id="@+id/go_blog"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/go_blog"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/go_github"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/go_bug"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/issue"
+        android:background="#e43f3f"
+        android:textColor="#fff"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/go_blog"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

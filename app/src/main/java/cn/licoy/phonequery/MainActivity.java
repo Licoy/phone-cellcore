@@ -2,6 +2,7 @@ package cn.licoy.phonequery;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -146,11 +147,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 关于
      */
     private void about(){
-        AlertDialog.Builder b = new AlertDialog.Builder(this);
-        b.setTitle("关于 / About");
-        b.setMessage("作者: Licoy\n博客: https://www.licoy.cn\nGithub: https://github.com/Licoy");
-        b.setPositiveButton("关闭",null);
-        b.show();
+        Intent intent = new Intent(this,AboutActivity.class);
+        startActivity(intent);
 
     }
 }
